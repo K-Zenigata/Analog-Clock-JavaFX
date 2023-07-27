@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="clockBase" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="320.0" styleClass="clockBase" stylesheets="@style.css"
+    xmlns="http://javafx.com/javafx/19"
+    xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller">
+    <children>
+        <Label fx:id="timeLabel" alignment="CENTER" layoutX="95.0" layoutY="207.0" prefHeight="34.0" prefWidth="130.0" styleClass="timeLabel" stylesheets="@style.css" textAlignment="RIGHT">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <Pane fx:id="hourHand" layoutX="151.0" layoutY="66.0" prefHeight="110.0" prefWidth="18.0" styleClass="hourHand" stylesheets="@style.css" />
+        <Pane fx:id="minuteHand" layoutX="155.0" layoutY="38.0" prefHeight="138.0" prefWidth="10.0" styleClass="minuteHand" stylesheets="@style.css" />
+        <Pane fx:id="secondHand" layoutX="157.0" layoutY="20.0" prefHeight="155.0" prefWidth="6.0" styleClass="secondHand" stylesheets="@style.css" />
+        <Circle fill="#9a9a9a" layoutX="160.0" layoutY="160.0" onMouseClicked="#shutdown" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+    </children>
+</AnchorPane>

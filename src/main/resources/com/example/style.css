@@ -1,0 +1,31 @@
+.clockBase {
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-background-radius: 50%;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+    -fx-border-radius: 50%;
+    -fx-border-color: rgb(165, 165, 165);
+}
+
+.timeLabel {
+    -fx-background-color: rgb(0, 0, 0);
+    -fx-text-fill: rgb(255, 255, 255);
+}
+
+.hourHand {
+    -fx-background-color: rgb(255, 0, 0);
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.minuteHand {
+    -fx-background-color: rgb(0, 0, 255);
+    -fx-border-radius: 5 5 0 0;
+    -fx-background-radius: 5 5 0 0;
+}
+
+.secondHand {
+    -fx-background-color: rgb(255, 255, 0);
+    -fx-border-radius: 2 2 0 0;
+    -fx-background-radius: 2 2 0 0;
+}
