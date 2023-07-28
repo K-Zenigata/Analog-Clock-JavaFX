@@ -1,1 +1,1 @@
-![analog_clock](https://github.com/K-Zenigata/AnalogClock_JavaFX/assets/114846454/b20dc5c9-a6a5-4f91-898b-9654b3c5b676)
+![analog_clock](https://github.com/K-Zenigata/AnalogClock_JavaFX/assets/114846454/57eac4e1-c2f5-466b-beac-8e4d9c5bccb3)
